@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<survey name="Random Mormon Gender Issues Survey">
+	<question variablename="Q35">
+		<full_text>Thank you for taking the time to complete this survey. Please read the questions carefully and answer honestly. While there is little risk associated with completing this survey, you may experience discomfort expressing personal beliefs about sensitive topics. If at any time you wish to discontinue the survey, you may do so. You may skip any question by choosing the "Prefer not to respond" option or by clicking the "Next" button.    This survey is conducted by The Mormon Gender Issues Survey Group. This group is a volunteer association of Mormon academics who have come together for the purpose of better understanding the beliefs and attitudes of LDS Church members about gender and gender roles. This study has been reviewed and approved by the Georgia Southern University Institutional Review Board under tracking number H15105, and by The University of Tampa Institutional Review Board (Phone: 813-253-3333; email: rib@ut.edu). For more information, see the group's webpage, http://www.mormongendersurvey.org, contact Brent. D. Beal (bbeal@uttyler.edu) or Michael Nielsen (mnielsen@georgiasouthern.edu), or contact one of the other group members. You also may contact the Georgia Southern University Institutional Review Board at (912) 478-0843 or irb@georgiasouthern.edu, or The University of Tampa Institutional Review Board at (813) 253-3333 or irb@ut.edu.  Additional information about the survey, including summaries of survey results, will be available at http://www.mormongendersurvey.org.   Again, thank you for your willingness to participate in this survey. For more information click here.    Sincerely,   The Mormon Gender Issues Survey Group     By checking the box below you are consenting to this survey. You understand that your responses will be kept confidential and that the data will be used to publish information on gender and the LDS Church.</full_text>
+		<question_label>Consent text</question_label>
+		<response_choice value="1">I agree to participate in this survey</response_choice>
+		<response_choice value="2">I do not agree to participate in this survey</response_choice>
+	</question>
+	<question variablename="Q1">
+		<question_label>According to its records, The Church of Jesus Christ of Latter-day Saints (LDS Church) has approximately 15 million members.  Do you think your name is on the Church records?</question_label>
+		<response_choice value="1">Yes, and I currently identify as LDS</response_choice>
+		<response_choice value="2">Yes, but I do not identify as LDS</response_choice>
+		<response_choice value="3">No, but I was LDS</response_choice>
+		<response_choice value="4">No, I have never been LDS</response_choice>
+		<response_choice value="5">Don't know</response_choice>
+		<response_choice value="6">Prefer not to respond</response_choice>		
+	</question>
+	<question variablename="Q67">
+		<full_text>A special note for those who no longer affiliate with the LDS Church.Several of the questions in this survey are presented from an currently affiliating member's perspective. While some of this wording may be awkward for you to answer we would still like to know your answers. For consistency, we are going to keep the answers the same for both affiliating and non-affiliated respondents. We would like you to answer these questions thinking about to how you would have answered them in the months before disaffiliating with the LDS Church.  We hope that by asking these questions we can provide a more accurate view of the status of members before they exit the LDS Church. Please indicate how long it has been since you left the LDS Church.</full_text>
+		<question_label>Please indicate how long it has been since you left the LDS Church.</question_label>
+		<response_choice value="1">Less than 1 Year</response_choice>
+		<response_choice value="2">1-3 years</response_choice>
+		<response_choice value="3">4-10 years</response_choice>
+		<response_choice value="4">Greater than 11 Years</response_choice>
+		<response_choice value="5">Don't know</response_choice>
+		<response_choice value="6">Prefer not to respond</response_choice>		
+	</question>
+	<question variablename="Q46">
+		<question_label>How did you become a member of the LDS Church?</question_label>
+		<response_choice value="1">Child of record and baptized at eight years old</response_choice>
+		<response_choice value="2">Child of record, baptized after eight</response_choice>
+		<response_choice value="3">Converted to the Church as a youth</response_choice>
+		<response_choice value="4">Converted to the Church as an adult</response_choice>
+		<response_choice value="5">Don't know</response_choice>
+		<response_choice value="6">Prefer not to respond</response_choice>		
+	</question>
+	<question variablename="Q47">
+		<question_label>Take a moment and think of the individuals with whom you have socialized during your leisure time during the past month.  Indicate below the rough percentage of these individuals who are members of the Church.</question_label>
+		<response_choice value="na" min="0" max="100"/>		
+	</question>
+	<question variablename="Q2">
+		<question_label>What is your gender?</question_label>
+		<response_choice value="1">Male</response_choice>
+		<response_choice value="2">Female</response_choice>
+		<response_choice value="3">If you feel the options above aren't accurate, please share with us how you self-identify</response_choice>
+		<response_choice value="4">Prefer not to respond</response_choice>		
+	</question>	
+	<question variablename="Q3">
+		<question_label>How active are you in the LDS Church?</question_label>
+		<response_choice value="1">Very active</response_choice>
+		<response_choice value="2">Somewhat active</response_choice>
+		<response_choice value="3">Not too active</response_choice>
+		<response_choice value="4">Not active at all</response_choice>
+		<response_choice value="5">Don't know</response_choice>
+		<response_choice value="6">Prefer not to respond</response_choice>		
+	</question>
+	<question variablename="Q4">
+		<question_label>Do you hold a current temple recommend?</question_label>
+		<response_choice value="1">Yes</response_choice>
+		<response_choice value="2">No</response_choice>
+		<response_choice value="3">Don't know</response_choice>
+		<response_choice value="4">Prefer not to respond</response_choice>		
+	</question>
+	<question variablename="Q5">
+		<question_label>Is believing that Joseph Smith literally saw God the Father and Jesus Christ essential for being a good Mormon?</question_label>
+		<response_choice value="1">Essential</response_choice>
+		<response_choice value="2">Important, but not essential</response_choice>
+		<response_choice value="3">Not too important</response_choice>
+		<response_choice value="4">Not at all important</response_choice>
+		<response_choice value="5">Don't know</response_choice>
+		<response_choice value="6">Prefer not to respond</response_choice>		
+	</question>
+	<question variablename="Q6">
+		<question_label>Which statement comes closer to your own view, even if neither is exactly right?(teachings)</question_label>
+		<response_choice value="1">Some teachings of the LDS Church are hard for me to accept</response_choice>
+		<response_choice value="2">I believe wholeheartedly in all the teachings of the LDS Church</response_choice>
+	</question>
+	<question variablename="Q16">
+		<question_label>Which statement comes closer to your own view, even if neither is exactly right?(obey counsel)</question_label>
+		<response_choice value="1">A good Latter-day Saint should obey the counsel of priesthood leaders without necessarily knowing why</response_choice>
+		<response_choice value="2">A good Latter-day Saint should first seek his or her own personal revelation as the motivation to obey</response_choice>
+	</question>	
+	<question variablename="q39">
+		<question_label>Are you personally concerned about the different roles men and women are expected to play in the LDS Church?</question_label>
+		<response_choice value="1">Yes</response_choice>
+		<response_choice value="2">No</response_choice>
+		<response_choice value="3">Don't know</response_choice>
+		<response_choice value="4">Prefer not to respond</response_choice>
+	</question>
+	<question variablename="q40">
+		<question_label>Differences between the roles of women and men in the LDS Church are:</question_label>
+		<response_choice value="1">Cultural</response_choice>
+		<response_choice value="2">Doctrinal </response_choice>
+		<response_choice value="3">A mix of culture and doctrine</response_choice>
+		<response_choice value="4">Don't know</response_choice>
+		<response_choice value="5">Prefer not to respond</response_choice>
+	</question>
+	<question variablename="q19_1">
+		<question_label>God has established different roles for men and women</question_label>
+		<response_choice value="1">Strongly Disagree</response_choice>
+		<response_choice value="2">Disagree</response_choice>
+		<response_choice value="3">Neutral</response_choice>
+		<response_choice value="4">Agree</response_choice>
+		<response_choice value="5">Strongly Agree</response_choice>
+		<response_choice value="6">Don't know</response_choice>
+		<response_choice value="7">No Response</response_choice>
+	</question>
+	<question variablename="q19_6">
+		<question_label>The way women are treated in the Church is a problem</question_label>
+		<response_choice value="1">Strongly Disagree</response_choice>
+		<response_choice value="2">Disagree</response_choice>
+		<response_choice value="3">Neutral</response_choice>
+		<response_choice value="4">Agree</response_choice>
+		<response_choice value="5">Strongly Agree</response_choice>
+		<response_choice value="6">Don't know</response_choice>
+		<response_choice value="7">No Response</response_choice>
+	</question>
+	<question variablename="q19_7">
+		<question_label>If women were given more leadership responsibilities, it would strengthen the Church</question_label>
+		<response_choice value="1">Strongly Disagree</response_choice>
+		<response_choice value="2">Disagree</response_choice>
+		<response_choice value="3">Neutral</response_choice>
+		<response_choice value="4">Agree</response_choice>
+		<response_choice value="5">Strongly Agree</response_choice>
+		<response_choice value="6">Don't know</response_choice>
+		<response_choice value="7">No Response</response_choice>
+	</question>
+</survey>
