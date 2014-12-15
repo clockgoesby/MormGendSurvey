@@ -1,128 +1,340 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <survey name="Random Mormon Gender Issues Survey">
-	<question variablename="Q35">
+	<item RndVarName="Q35">
 		<full_text>Thank you for taking the time to complete this survey. Please read the questions carefully and answer honestly. While there is little risk associated with completing this survey, you may experience discomfort expressing personal beliefs about sensitive topics. If at any time you wish to discontinue the survey, you may do so. You may skip any question by choosing the "Prefer not to respond" option or by clicking the "Next" button.    This survey is conducted by The Mormon Gender Issues Survey Group. This group is a volunteer association of Mormon academics who have come together for the purpose of better understanding the beliefs and attitudes of LDS Church members about gender and gender roles. This study has been reviewed and approved by the Georgia Southern University Institutional Review Board under tracking number H15105, and by The University of Tampa Institutional Review Board (Phone: 813-253-3333; email: rib@ut.edu). For more information, see the group's webpage, http://www.mormongendersurvey.org, contact Brent. D. Beal (bbeal@uttyler.edu) or Michael Nielsen (mnielsen@georgiasouthern.edu), or contact one of the other group members. You also may contact the Georgia Southern University Institutional Review Board at (912) 478-0843 or irb@georgiasouthern.edu, or The University of Tampa Institutional Review Board at (813) 253-3333 or irb@ut.edu.  Additional information about the survey, including summaries of survey results, will be available at http://www.mormongendersurvey.org.   Again, thank you for your willingness to participate in this survey. For more information click here.    Sincerely,   The Mormon Gender Issues Survey Group     By checking the box below you are consenting to this survey. You understand that your responses will be kept confidential and that the data will be used to publish information on gender and the LDS Church.</full_text>
-		<question_label>Consent text</question_label>
-		<response_choice value="1">I agree to participate in this survey</response_choice>
-		<response_choice value="2">I do not agree to participate in this survey</response_choice>
-	</question>
-	<question variablename="Q1">
-		<question_label>According to its records, The Church of Jesus Christ of Latter-day Saints (LDS Church) has approximately 15 million members.  Do you think your name is on the Church records?</question_label>
-		<response_choice value="1">Yes, and I currently identify as LDS</response_choice>
-		<response_choice value="2">Yes, but I do not identify as LDS</response_choice>
-		<response_choice value="3">No, but I was LDS</response_choice>
-		<response_choice value="4">No, I have never been LDS</response_choice>
-		<response_choice value="5">Don't know</response_choice>
-		<response_choice value="6">Prefer not to respond</response_choice>		
-	</question>
-	<question variablename="Q67">
+		<item_label>Consent text</question_label>
+		<response_choice RndValue="1">I agree to participate in this survey</response_choice>
+		<response_choice RndValue="2">I do not agree to participate in this survey</response_choice>
+	</item>
+	<item RndVarName="Q1">
+		<item_label>According to its records, The Church of Jesus Christ of Latter-day Saints (LDS Church) has approximately 15 million members.  Do you think your name is on the Church records?</question_label>
+		<response_choice RndValue="1">Yes, and I currently identify as LDS</response_choice>
+		<response_choice RndValue="2">Yes, but I do not identify as LDS</response_choice>
+		<response_choice RndValue="3">No, but I was LDS</response_choice>
+		<response_choice RndValue="4">No, I have never been LDS</response_choice>
+		<response_choice RndValue="5">Don't know</response_choice>
+		<response_choice RndValue="6">Prefer not to respond</response_choice>		
+	</item>
+	<item RndVarName="Q67">
 		<full_text>A special note for those who no longer affiliate with the LDS Church.Several of the questions in this survey are presented from an currently affiliating member's perspective. While some of this wording may be awkward for you to answer we would still like to know your answers. For consistency, we are going to keep the answers the same for both affiliating and non-affiliated respondents. We would like you to answer these questions thinking about to how you would have answered them in the months before disaffiliating with the LDS Church.  We hope that by asking these questions we can provide a more accurate view of the status of members before they exit the LDS Church. Please indicate how long it has been since you left the LDS Church.</full_text>
-		<question_label>Please indicate how long it has been since you left the LDS Church.</question_label>
-		<response_choice value="1">Less than 1 Year</response_choice>
-		<response_choice value="2">1-3 years</response_choice>
-		<response_choice value="3">4-10 years</response_choice>
-		<response_choice value="4">Greater than 11 Years</response_choice>
-		<response_choice value="5">Don't know</response_choice>
-		<response_choice value="6">Prefer not to respond</response_choice>		
-	</question>
-	<question variablename="Q46">
-		<question_label>How did you become a member of the LDS Church?</question_label>
-		<response_choice value="1">Child of record and baptized at eight years old</response_choice>
-		<response_choice value="2">Child of record, baptized after eight</response_choice>
-		<response_choice value="3">Converted to the Church as a youth</response_choice>
-		<response_choice value="4">Converted to the Church as an adult</response_choice>
-		<response_choice value="5">Don't know</response_choice>
-		<response_choice value="6">Prefer not to respond</response_choice>		
-	</question>
-	<question variablename="Q47">
-		<question_label>Take a moment and think of the individuals with whom you have socialized during your leisure time during the past month.  Indicate below the rough percentage of these individuals who are members of the Church.</question_label>
-		<response_choice value="na" min="0" max="100"/>		
-	</question>
-	<question variablename="Q2">
-		<question_label>What is your gender?</question_label>
-		<response_choice value="1">Male</response_choice>
-		<response_choice value="2">Female</response_choice>
-		<response_choice value="3">If you feel the options above aren't accurate, please share with us how you self-identify</response_choice>
-		<response_choice value="4">Prefer not to respond</response_choice>		
-	</question>	
-	<question variablename="Q3">
-		<question_label>How active are you in the LDS Church?</question_label>
-		<response_choice value="1">Very active</response_choice>
-		<response_choice value="2">Somewhat active</response_choice>
-		<response_choice value="3">Not too active</response_choice>
-		<response_choice value="4">Not active at all</response_choice>
-		<response_choice value="5">Don't know</response_choice>
-		<response_choice value="6">Prefer not to respond</response_choice>		
-	</question>
-	<question variablename="Q4">
-		<question_label>Do you hold a current temple recommend?</question_label>
-		<response_choice value="1">Yes</response_choice>
-		<response_choice value="2">No</response_choice>
-		<response_choice value="3">Don't know</response_choice>
-		<response_choice value="4">Prefer not to respond</response_choice>		
-	</question>
-	<question variablename="Q5">
-		<question_label>Is believing that Joseph Smith literally saw God the Father and Jesus Christ essential for being a good Mormon?</question_label>
-		<response_choice value="1">Essential</response_choice>
-		<response_choice value="2">Important, but not essential</response_choice>
-		<response_choice value="3">Not too important</response_choice>
-		<response_choice value="4">Not at all important</response_choice>
-		<response_choice value="5">Don't know</response_choice>
-		<response_choice value="6">Prefer not to respond</response_choice>		
-	</question>
-	<question variablename="Q6">
-		<question_label>Which statement comes closer to your own view, even if neither is exactly right?(teachings)</question_label>
-		<response_choice value="1">Some teachings of the LDS Church are hard for me to accept</response_choice>
-		<response_choice value="2">I believe wholeheartedly in all the teachings of the LDS Church</response_choice>
-	</question>
-	<question variablename="Q16">
-		<question_label>Which statement comes closer to your own view, even if neither is exactly right?(obey counsel)</question_label>
-		<response_choice value="1">A good Latter-day Saint should obey the counsel of priesthood leaders without necessarily knowing why</response_choice>
-		<response_choice value="2">A good Latter-day Saint should first seek his or her own personal revelation as the motivation to obey</response_choice>
-	</question>	
-	<question variablename="q39">
-		<question_label>Are you personally concerned about the different roles men and women are expected to play in the LDS Church?</question_label>
-		<response_choice value="1">Yes</response_choice>
-		<response_choice value="2">No</response_choice>
-		<response_choice value="3">Don't know</response_choice>
-		<response_choice value="4">Prefer not to respond</response_choice>
-	</question>
-	<question variablename="q40">
-		<question_label>Differences between the roles of women and men in the LDS Church are:</question_label>
-		<response_choice value="1">Cultural</response_choice>
-		<response_choice value="2">Doctrinal </response_choice>
-		<response_choice value="3">A mix of culture and doctrine</response_choice>
-		<response_choice value="4">Don't know</response_choice>
-		<response_choice value="5">Prefer not to respond</response_choice>
-	</question>
-	<question variablename="q19_1">
-		<question_label>God has established different roles for men and women</question_label>
-		<response_choice value="1">Strongly Disagree</response_choice>
-		<response_choice value="2">Disagree</response_choice>
-		<response_choice value="3">Neutral</response_choice>
-		<response_choice value="4">Agree</response_choice>
-		<response_choice value="5">Strongly Agree</response_choice>
-		<response_choice value="6">Don't know</response_choice>
-		<response_choice value="7">No Response</response_choice>
-	</question>
-	<question variablename="q19_6">
-		<question_label>The way women are treated in the Church is a problem</question_label>
-		<response_choice value="1">Strongly Disagree</response_choice>
-		<response_choice value="2">Disagree</response_choice>
-		<response_choice value="3">Neutral</response_choice>
-		<response_choice value="4">Agree</response_choice>
-		<response_choice value="5">Strongly Agree</response_choice>
-		<response_choice value="6">Don't know</response_choice>
-		<response_choice value="7">No Response</response_choice>
-	</question>
-	<question variablename="q19_7">
-		<question_label>If women were given more leadership responsibilities, it would strengthen the Church</question_label>
-		<response_choice value="1">Strongly Disagree</response_choice>
-		<response_choice value="2">Disagree</response_choice>
-		<response_choice value="3">Neutral</response_choice>
-		<response_choice value="4">Agree</response_choice>
-		<response_choice value="5">Strongly Agree</response_choice>
-		<response_choice value="6">Don't know</response_choice>
-		<response_choice value="7">No Response</response_choice>
-	</question>
+		<item_label>Please indicate how long it has been since you left the LDS Church.</question_label>
+		<response_choice RndValue="1">Less than 1 Year</response_choice>
+		<response_choice RndValue="2">1-3 years</response_choice>
+		<response_choice RndValue="3">4-10 years</response_choice>
+		<response_choice RndValue="4">Greater than 11 Years</response_choice>
+		<response_choice RndValue="5">Don't know</response_choice>
+		<response_choice RndValue="6">Prefer not to respond</response_choice>		
+	</item>
+	<item RndVarName="Q46">
+		<item_label>How did you become a member of the LDS Church?</question_label>
+		<response_choice RndValue="1">Child of record and baptized at eight years old</response_choice>
+		<response_choice RndValue="2">Child of record, baptized after eight</response_choice>
+		<response_choice RndValue="3">Converted to the Church as a youth</response_choice>
+		<response_choice RndValue="4">Converted to the Church as an adult</response_choice>
+		<response_choice RndValue="5">Don't know</response_choice>
+		<response_choice RndValue="6">Prefer not to respond</response_choice>		
+	</item>
+	<item RndVarName="Q47">
+		<item_label>Take a moment and think of the individuals with whom you have socialized during your leisure time during the past month.  Indicate below the rough percentage of these individuals who are members of the Church.</question_label>
+		<response_choice RndValue="na" min="0" max="100"/>		
+	</item>
+	<item RndVarName="Q2">
+		<item_label>What is your gender?</question_label>
+		<response_choice RndValue="1">Male</response_choice>
+		<response_choice RndValue="2">Female</response_choice>
+		<response_choice RndValue="3">If you feel the options above aren't accurate, please share with us how you self-identify</response_choice>
+		<response_choice RndValue="4">Prefer not to respond</response_choice>		
+	</item>	
+	<item RndVarName="Q3">
+		<item_label>How active are you in the LDS Church?</question_label>
+		<response_choice RndValue="1">Very active</response_choice>
+		<response_choice RndValue="2">Somewhat active</response_choice>
+		<response_choice RndValue="3">Not too active</response_choice>
+		<response_choice RndValue="4">Not active at all</response_choice>
+		<response_choice RndValue="5">Don't know</response_choice>
+		<response_choice RndValue="6">Prefer not to respond</response_choice>		
+	</item>
+	<item RndVarName="Q4">
+		<item_label>Do you hold a current temple recommend?</question_label>
+		<response_choice RndValue="1">Yes</response_choice>
+		<response_choice RndValue="2">No</response_choice>
+		<response_choice RndValue="3">Don't know</response_choice>
+		<response_choice RndValue="4">Prefer not to respond</response_choice>		
+	</item>
+	<item RndVarName="Q5">
+		<item_label>Is believing that Joseph Smith literally saw God the Father and Jesus Christ essential for being a good Mormon?</question_label>
+		<response_choice RndValue="1">Essential</response_choice>
+		<response_choice RndValue="2">Important, but not essential</response_choice>
+		<response_choice RndValue="3">Not too important</response_choice>
+		<response_choice RndValue="4">Not at all important</response_choice>
+		<response_choice RndValue="5">Don't know</response_choice>
+		<response_choice RndValue="6">Prefer not to respond</response_choice>		
+	</item>
+	<item RndVarName="Q6">
+		<item_label>Which statement comes closer to your own view, even if neither is exactly right?(teachings)</question_label>
+		<response_choice RndValue="1">Some teachings of the LDS Church are hard for me to accept</response_choice>
+		<response_choice RndValue="2">I believe wholeheartedly in all the teachings of the LDS Church</response_choice>
+	</item>
+	<item RndVarName="Q16">
+		<item_label>Which statement comes closer to your own view, even if neither is exactly right?(obey counsel)</question_label>
+		<response_choice RndValue="1">A good Latter-day Saint should obey the counsel of priesthood leaders without necessarily knowing why</response_choice>
+		<response_choice RndValue="2">A good Latter-day Saint should first seek his or her own personal revelation as the motivation to obey</response_choice>
+	</item>	
+	<item RndVarName="q39">
+		<item_label>Are you personally concerned about the different roles men and women are expected to play in the LDS Church?</question_label>
+		<response_choice RndValue="1">Yes</response_choice>
+		<response_choice RndValue="2">No</response_choice>
+		<response_choice RndValue="3">Don't know</response_choice>
+		<response_choice RndValue="4">Prefer not to respond</response_choice>
+	</item>
+	<item RndVarName="q40">
+		<item_label>Differences between the roles of women and men in the LDS Church are:</question_label>
+		<response_choice RndValue="1">Cultural</response_choice>
+		<response_choice RndValue="2">Doctrinal </response_choice>
+		<response_choice RndValue="3">A mix of culture and doctrine</response_choice>
+		<response_choice RndValue="4">Don't know</response_choice>
+		<response_choice RndValue="5">Prefer not to respond</response_choice>
+	</item>
+	<item RndVarName="q19_1">
+		<item_label>God has established different roles for men and women</question_label>
+		<response_choice RndValue="1">Strongly Disagree</response_choice>
+		<response_choice RndValue="2">Disagree</response_choice>
+		<response_choice RndValue="3">Neutral</response_choice>
+		<response_choice RndValue="4">Agree</response_choice>
+		<response_choice RndValue="5">Strongly Agree</response_choice>
+		<response_choice RndValue="6">Don't know</response_choice>
+		<response_choice RndValue="7">No Response</response_choice>
+	</item>
+	<item RndVarName="q19_6">
+		<item_label>The way women are treated in the Church is a problem</question_label>
+		<response_choice RndValue="1">Strongly Disagree</response_choice>
+		<response_choice RndValue="2">Disagree</response_choice>
+		<response_choice RndValue="3">Neutral</response_choice>
+		<response_choice RndValue="4">Agree</response_choice>
+		<response_choice RndValue="5">Strongly Agree</response_choice>
+		<response_choice RndValue="6">Don't know</response_choice>
+		<response_choice RndValue="7">No Response</response_choice>
+	</item>
+	<item RndVarName="q19_7">
+		<item_label>If women were given more leadership responsibilities, it would strengthen the Church</question_label>
+		<response_choice RndValue="1">Strongly Disagree</response_choice>
+		<response_choice RndValue="2">Disagree</response_choice>
+		<response_choice RndValue="3">Neutral</response_choice>
+		<response_choice RndValue="4">Agree</response_choice>
+		<response_choice RndValue="5">Strongly Agree</response_choice>
+		<response_choice RndValue="6">Don't know</response_choice>
+		<response_choice RndValue="7">No Response</response_choice>
+	</item>
+	<item RndVarName="q33_5">
+		<item_label>Eliminate language that suggests husbands preside over their wives.</question_label>
+		<response_choice RndValue="1">Strongly Oppose</response_choice>
+		<response_choice RndValue="2">Oppose</response_choice>
+		<response_choice RndValue="3">Neutral</response_choice>
+		<response_choice RndValue="4">Support</response_choice>
+		<response_choice RndValue="5">Strongly Support</response_choice>
+		<response_choice RndValue="6">Don't know</response_choice>
+		<response_choice RndValue="7">No Response</response_choice>
+	</item>
+	<item RndVarName="q33_4">
+		<item_label>Hire women at equivalent rates as men in LDS Seminaries and Institutes of Religion.</question_label>
+		<response_choice RndValue="1">Strongly Oppose</response_choice>
+		<response_choice RndValue="2">Oppose</response_choice>
+		<response_choice RndValue="3">Neutral</response_choice>
+		<response_choice RndValue="4">Support</response_choice>
+		<response_choice RndValue="5">Strongly Support</response_choice>
+		<response_choice RndValue="6">Don't know</response_choice>
+		<response_choice RndValue="7">No Response</response_choice>
+	</item>
+	<item RndVarName="q33_3">
+		<item_label>Allow women and men to serve missions of equal length at the same age.</question_label>
+		<response_choice RndValue="1">Strongly Oppose</response_choice>
+		<response_choice RndValue="2">Oppose</response_choice>
+		<response_choice RndValue="3">Neutral</response_choice>
+		<response_choice RndValue="4">Support</response_choice>
+		<response_choice RndValue="5">Strongly Support</response_choice>
+		<response_choice RndValue="6">Don't know</response_choice>
+		<response_choice RndValue="7">No Response</response_choice>
+	</item>
+	<item RndVarName="q33_2">
+		<item_label>Allow women to participate in the blessing of their children (for example, by holding their children in the circle).</question_label>
+		<response_choice RndValue="1">Strongly Oppose</response_choice>
+		<response_choice RndValue="2">Oppose</response_choice>
+		<response_choice RndValue="3">Neutral</response_choice>
+		<response_choice RndValue="4">Support</response_choice>
+		<response_choice RndValue="5">Strongly Support</response_choice>
+		<response_choice RndValue="6">Don't know</response_choice>
+		<response_choice RndValue="7">No Response</response_choice>
+	</item>
+	<item RndVarName="q33_8">
+		<item_label>Change temple marriage policies so that men and women have equal opportunity to be sealed to their second spouses after they are widowed or divorced.</question_label>
+		<response_choice RndValue="1">Strongly Oppose</response_choice>
+		<response_choice RndValue="2">Oppose</response_choice>
+		<response_choice RndValue="3">Neutral</response_choice>
+		<response_choice RndValue="4">Support</response_choice>
+		<response_choice RndValue="5">Strongly Support</response_choice>
+		<response_choice RndValue="6">Don't know</response_choice>
+		<response_choice RndValue="7">No Response</response_choice>
+	</item>
+	<item RndVarName="q33_9">
+		<item_label>This is an attention filter. Please select Strongly Support for this question. </question_label>
+		<response_choice RndValue="1">Strongly Oppose</response_choice>
+		<response_choice RndValue="2">Oppose</response_choice>
+		<response_choice RndValue="3">Neutral</response_choice>
+		<response_choice RndValue="4">Support</response_choice>
+		<response_choice RndValue="5">Strongly Support</response_choice>
+		<response_choice RndValue="6">Don't know</response_choice>
+		<response_choice RndValue="7">No Response</response_choice>
+	</item>
+	<item RndVarName="q15">
+		<item_label>Are you personally concerned about the different roles men and women are expected to play in the LDS Church?</question_label>
+		<response_choice RndValue="1">Yes</response_choice>
+		<response_choice RndValue="2">No</response_choice>
+		<response_choice RndValue="3">Don't know</response_choice>
+		<response_choice RndValue="4">Prefer not to respond</response_choice>
+	</item>
+	<item RndVarName="q12">
+		<item_label>If the First Presidency and the Quorum of the Twelve Apostles received a revelation allowing women to hold the priesthood, would you, personally, want to be ordained to the priesthood?</question_label>
+		<response_choice RndValue="1">Yes</response_choice>
+		<response_choice RndValue="2">No</response_choice>
+		<response_choice RndValue="3">Don't know</response_choice>
+		<response_choice RndValue="4">Prefer not to respond</response_choice>
+	</item>
+	<item RndVarName="q13">
+		<item_label>If the First Presidency and the Quorum of the Twelve Apostles were to receive a revelation allowing women to hold the priesthood, the process should be:</question_label>
+		<response_choice RndValue="1">the same as it is for young men and adult males.</response_choice>
+		<response_choice RndValue="3">limited to women in leadership positions.</response_choice>
+		<response_choice RndValue="2">something other than the two above options.</response_choice>
+		<response_choice RndValue="4">Don't know</response_choice>
+		<response_choice RndValue="5">Prefer not to respond</response_choice>
+	</item>
+	<item RndVarName="q9">
+		<item_label>I believe that if the First Presidency and the Quorum of the Twelve Apostles were to receive a revelation allowing women to hold the priesthood, the typical member would be:</item_label>
+		<response_choice RndValue="1">strongly supportive</response_choice>
+		<response_choice RndValue="2">supportive</response_choice>
+		<response_choice RndValue="3">neither supportive nor opposed</response_choice>
+		<response_choice RndValue="4">opposed</response_choice>
+		<response_choice RndValue="5">strongly opposed</response_choice>
+		<response_choice RndValue="6">Don't know</response_choice>
+		<response_choice RndValue="7">Prefer not to respond</response_choice>
+	</item>
+	<item RndVarName="q10">
+		<item_label>If the First Presidency and the Quorum of the Twelve Apostles were to receive a revelation allowing women to hold the priesthood, I would be:</item_label>
+		<response_choice RndValue="1">strongly supportive</response_choice>
+		<response_choice RndValue="2">supportive</response_choice>
+		<response_choice RndValue="3">neither supportive nor opposed</response_choice>
+		<response_choice RndValue="4">opposed</response_choice>
+		<response_choice RndValue="5">strongly opposed</response_choice>
+		<response_choice RndValue="6">Don't know</response_choice>
+		<response_choice RndValue="7">Prefer not to respond</response_choice>
+	</item>
+	<item RndVarName="ex50">
+		<item_label>How likely is it that sometime within the next 50 years the First Presidency and the Quorum of the Twelve Apostles will receive a revelation allowing women to be ordained to the priesthood?</item_label>
+		<response_choice RndValue="1">Less than 1% chance</response_choice>
+		<response_choice RndValue="11">1-10%</response_choice>
+		<response_choice RndValue="2">10-20%</response_choice>
+		<response_choice RndValue="3">20-30%</response_choice>
+		<response_choice RndValue="4">30-40%</response_choice>
+		<response_choice RndValue="5">40-50%</response_choice>
+		<response_choice RndValue="6">50-60%</response_choice>
+		<response_choice RndValue="7">60-70%</response_choice>
+		<response_choice RndValue="8">70-80%</response_choice>
+		<response_choice RndValue="9">80-90%</response_choice>
+		<response_choice RndValue="10">90-99%</response_choice>
+		<response_choice RndValue="12">More than 99%</response_choice>
+	</item>
+	<item RndVarName="q75">
+		<item_label>How likely is it that sometime within the next 50 years the First Presidency and the Quorum of the Twelve Apostles will receive a a revelation asking members of the church to gather in Jackson County, Missouri in preparation for Jesus Christ's return?</item_label>
+		<response_choice RndValue="1">Less than 1% chance</response_choice>
+		<response_choice RndValue="11">1-10%</response_choice>
+		<response_choice RndValue="2">10-20%</response_choice>
+		<response_choice RndValue="3">20-30%</response_choice>
+		<response_choice RndValue="4">30-40%</response_choice>
+		<response_choice RndValue="5">40-50%</response_choice>
+		<response_choice RndValue="6">50-60%</response_choice>
+		<response_choice RndValue="7">60-70%</response_choice>
+		<response_choice RndValue="8">70-80%</response_choice>
+		<response_choice RndValue="9">80-90%</response_choice>
+		<response_choice RndValue="10">90-99%</response_choice>
+		<response_choice RndValue="12">More than 99%</response_choice>
+	</item>
+	<item RndVarName="q79">
+		<item_label>How likely is it that sometime within the next 50 years the First Presidency and the Quorum of the Twelve Apostles will receive a revelation opening up mainland China for missionary work?</item_label>
+		<response_choice RndValue="1">Less than 1% chance</response_choice>
+		<response_choice RndValue="11">1-10%</response_choice>
+		<response_choice RndValue="2">10-20%</response_choice>
+		<response_choice RndValue="3">20-30%</response_choice>
+		<response_choice RndValue="4">30-40%</response_choice>
+		<response_choice RndValue="5">40-50%</response_choice>
+		<response_choice RndValue="6">50-60%</response_choice>
+		<response_choice RndValue="7">60-70%</response_choice>
+		<response_choice RndValue="8">70-80%</response_choice>
+		<response_choice RndValue="9">80-90%</response_choice>
+		<response_choice RndValue="10">90-99%</response_choice>
+		<response_choice RndValue="12">More than 99%</response_choice>
+	</item>
+	<item RndVarName="q29">
+		<item_label>How old are you?</item_label>
+		<response_choice RndValue="1">18-25</response_choice>
+		<response_choice RndValue="2">26-30</response_choice>
+		<response_choice RndValue="3">31-40</response_choice>
+		<response_choice RndValue="4">41-50</response_choice>
+		<response_choice RndValue="5">51-60</response_choice>
+		<response_choice RndValue="6">61-70</response_choice>
+		<response_choice RndValue="7">71+</response_choice>
+		<response_choice RndValue="8">Prefer not to respond</response_choice>
+	</item>
+	<item RndVarName="q30">
+		<item_label>What is the higest degree you've earned?</item_label>
+		<response_choice RndValue="1">Did not finish high school</response_choice>
+		<response_choice RndValue="2">High school</response_choice>
+		<response_choice RndValue="3">Some college</response_choice>
+		<response_choice RndValue="4">College graduate</response_choice>
+		<response_choice RndValue="5">Master's degree</response_choice>
+		<response_choice RndValue="6">Ph.D.</response_choice>
+		<response_choice RndValue="7">JD/MD</response_choice>
+		<response_choice RndValue="8">Prefer not to respond</response_choice>
+	</item>
+	<item RndVarName="q69">
+		<item_label>In what area of study is your highest degree?</item_label>
+		<response_choice RndValue="1">Humanities (history, literature, arts, philosophy, religion, etc.)</response_choice>
+		<response_choice RndValue="2">Social Sciences (anthropology, economics, geography, political science, psychology, sociology, etc.)</response_choice>
+		<response_choice RndValue="3">Natural Sciences (biology, chemistry, earth sciences, physics, astronomy)</response_choice>
+		<response_choice RndValue="4">Formal Sciences (mathematics, computer science, statistics, etc.)</response_choice>
+		<response_choice RndValue="5">Professions (agriculture, business, education, engineering, family & consumer science, medicine, public administration, social work, etc.)</response_choice>
+		<response_choice RndValue="6">General Diploma</response_choice>
+	</item>
+	<item RndVarName="q31">
+		<item_label>What is your race/ethnicity?</item_label>
+		<response_choice RndValue="1">White, non-Hispanic</response_choice>
+		<response_choice RndValue="2">Black, non-Hispanic</response_choice>
+		<response_choice RndValue="3">Hispanic</response_choice>
+		<response_choice RndValue="4">Asian</response_choice>
+		<response_choice RndValue="5">Native American</response_choice>
+		<response_choice RndValue="9">Pacific Islander</response_choice>
+	</item>
+	<item RndVarName="q32">
+		<item_label>What is your annual pre-tax household income? If you live outside the United States please use  this link for a currency converter calculator</item_label>
+		<response_choice RndValue="1">Less than $10,000</response_choice>
+		<response_choice RndValue="2">$10,001 to $25,000</response_choice>
+		<response_choice RndValue="3">$25,001 to $50,000</response_choice>
+		<response_choice RndValue="4">$50,000 to $75,000</response_choice>
+		<response_choice RndValue="5">$75,001 to $100,000</response_choice>
+		<response_choice RndValue="6">$100,001 to $250,000</response_choice>
+		<response_choice RndValue="7">$250,001+</response_choice>
+		<response_choice RndValue="8">Don't know</response_choice>
+		<response_choice RndValue="9">Prefer not to respond</response_choice>
+	</item>
+	<item RndVarName="q33">
+		<item_label>What is your annual pre-tax household income? If you live outside the United States please use  this link for a currency converter calculator</item_label>
+		<response_choice RndValue="1">Very conservative</response_choice>
+		<response_choice RndValue="2">Conservative</response_choice>
+		<response_choice RndValue="3">Moderate, but lean conservative</response_choice>
+		<response_choice RndValue="4">Moderate</response_choice>
+		<response_choice RndValue="5">Moderate, but lean liberal</response_choice>
+		<response_choice RndValue="6">Liberal</response_choice>
+		<response_choice RndValue="7">Very Liberal</response_choice>
+		<response_choice RndValue="8">Other</response_choice>
+		<response_choice RndValue="9">Don't know</response_choice>
+		<response_choice RndValue="10">Prefer not to respond</response_choice>
+	</item>
 </survey>
