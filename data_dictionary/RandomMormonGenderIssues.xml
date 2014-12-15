@@ -1,35 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE survey [
 <!ELEMENT survey (item+)>
-<!ELEMENT item (full_text?, item_label, response_choice+)>
-<!ELEMENT full_text (#PCDATA)>
-<!ELEMENT item_label (#PCDATA)>
-<!ELEMENT response_choice (#PCDATA)>
-
 <!ATTLIST survey name CDATA #REQUIRED>
+
+<!ELEMENT item (full_text?, item_label, response_choice+)>
 <!ATTLIST item RndVarName CDATA #REQUIRED>
+
+<!ELEMENT full_text (#PCDATA)>
+
+<!ELEMENT item_label (#PCDATA)>
+
+<!ELEMENT response_choice (#PCDATA)>
 <!ATTLIST response_choice RndValue CDATA #REQUIRED>
+<!ATTLIST response_choice min CDATA #IMPLIED>
+<!ATTLIST response_choice max CDATA #IMPLIED>
 ]>
 <survey name="Random Mormon Gender Issues Survey">
     <item RndVarName="Q35">
         <full_text>Thank you for taking the time to complete this survey. Please read the questions carefully and 
-        answer honestly. While there is little risk associated with completing this survey, you may experience 
-        discomfort expressing personal beliefs about sensitive topics. If at any time you wish to discontinue the 
-        survey, you may do so. You may skip any question by choosing the "Prefer not to respond" option or by 
-        clicking the "Next" button.    This survey is conducted by The Mormon Gender Issues Survey Group. 
-        This group is a volunteer association of Mormon academics who have come together for the purpose of better 
-        understanding the beliefs and attitudes of LDS Church members about gender and gender roles. This study has 
-        been reviewed and approved by the Georgia Southern University Institutional Review Board under tracking 
-        number H15105, and by The University of Tampa Institutional Review Board (Phone: 813-253-3333; email: rib@ut.edu). 
-        For more information, see the group's webpage, http://www.mormongendersurvey.org, contact Brent. D. Beal 
-        (bbeal@uttyler.edu) or Michael Nielsen (mnielsen@georgiasouthern.edu), or contact one of the other 
-        group members. You also may contact the Georgia Southern University Institutional Review Board at 
-        (912) 478-0843 or irb@georgiasouthern.edu, or The University of Tampa Institutional Review Board at 
-        (813) 253-3333 or irb@ut.edu.  Additional information about the survey, including summaries of survey 
-        results, will be available at http://www.mormongendersurvey.org.   Again, thank you for your willingness 
-        to participate in this survey. For more information click here.    Sincerely,   The Mormon Gender Issues 
-        Survey Group     By checking the box below you are consenting to this survey. You understand that your responses 
-        will be kept confidential and that the data will be used to publish information on gender and the LDS Church.
+answer honestly. While there is little risk associated with completing this survey, you may experience 
+discomfort expressing personal beliefs about sensitive topics. If at any time you wish to discontinue the 
+survey, you may do so. You may skip any question by choosing the "Prefer not to respond" option or by 
+clicking the "Next" button.    This survey is conducted by The Mormon Gender Issues Survey Group. 
+This group is a volunteer association of Mormon academics who have come together for the purpose of better 
+understanding the beliefs and attitudes of LDS Church members about gender and gender roles. This study has 
+been reviewed and approved by the Georgia Southern University Institutional Review Board under tracking 
+number H15105, and by The University of Tampa Institutional Review Board (Phone: 813-253-3333; email: rib@ut.edu). 
+For more information, see the group's webpage, http://www.mormongendersurvey.org, contact Brent. D. Beal 
+(bbeal@uttyler.edu) or Michael Nielsen (mnielsen@georgiasouthern.edu), or contact one of the other 
+group members. You also may contact the Georgia Southern University Institutional Review Board at 
+(912) 478-0843 or irb@georgiasouthern.edu, or The University of Tampa Institutional Review Board at 
+(813) 253-3333 or irb@ut.edu.  Additional information about the survey, including summaries of survey 
+results, will be available at http://www.mormongendersurvey.org.   Again, thank you for your willingness 
+to participate in this survey. For more information click here.    Sincerely,   The Mormon Gender Issues 
+Survey Group     By checking the box below you are consenting to this survey. You understand that your responses 
+will be kept confidential and that the data will be used to publish information on gender and the LDS Church.
         </full_text>
         <item_label>Consent text</item_label>
         <response_choice RndValue="1">I agree to participate in this survey</response_choice>
@@ -65,7 +70,7 @@
     </item>
     <item RndVarName="Q47">
         <item_label>Take a moment and think of the individuals with whom you have socialized during your leisure time during the past month.  Indicate below the rough percentage of these individuals who are members of the Church.</item_label>
-        <response_choice RndValue="na" />
+        <response_choice RndValue="na" min="0" max="100" />
     </item>
     <item RndVarName="Q2">
         <item_label>What is your gender?</item_label>
