@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE survey [
+<!ELEMENT survey (item+)>
+<!ELEMENT item (full_text?, item_label, response_choice+)>
+<!ELEMENT full_text (#PCDATA)>
+<!ELEMENT item_label (#PCDATA)>
+<!ELEMENT response_choice (#PCDATA)>
+
+<!ATTLIST survey name CDATA #REQUIRED>
+<!ATTLIST item RndVarName CDATA #REQUIRED>
+<!ATTLIST response_choice RndValue CDATA #REQUIRED>
+]>
 <survey name="Random Mormon Gender Issues Survey">
     <item RndVarName="Q35">
         <full_text>Thank you for taking the time to complete this survey. Please read the questions carefully and 
@@ -54,7 +65,7 @@
     </item>
     <item RndVarName="Q47">
         <item_label>Take a moment and think of the individuals with whom you have socialized during your leisure time during the past month.  Indicate below the rough percentage of these individuals who are members of the Church.</item_label>
-        <response_choice RndValue="na" min="0" max="100"/>        
+        <response_choice RndValue="na" />
     </item>
     <item RndVarName="Q2">
         <item_label>What is your gender?</item_label>
